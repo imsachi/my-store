@@ -30,7 +30,7 @@ function ProductsList(props) {
             props.state.data.map((product) => (
               <tr key={product.id}>
                 <td>
-                  <Link to={`/app/products/${product.id}`}>
+                  <Link to={`/app/products/${product.id}`} className="link">
                     {product.title}
                   </Link>
                 </td>

@@ -16,6 +16,9 @@ th {
 tr:nth-child(even) {
   background-color: darkgray;
 }
+.link {
+  text-decoration: none;
+}
 .card {
   display: flex;
   flex-wrap: wrap;
